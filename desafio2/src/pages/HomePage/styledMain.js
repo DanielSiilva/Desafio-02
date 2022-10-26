@@ -15,11 +15,23 @@ export const MasterBox = styled.div `
   align-items: center;
   gap: 5rem;
   
-  width: 100vw; // Teste
+  width: 90vw; // Teste
   height: 80vh;
 
-  border: 1px solid black; // Apenas para marcação
+   // Apenas para marcação
 
 
+
+`
+
+export const ButtonSend = styled.div `
+   display: flex;
+   justify-content: center;
+
+   button{
+      font-size:1.8rem;
+      cursor: pointer;
+      
+   }
 
 `
