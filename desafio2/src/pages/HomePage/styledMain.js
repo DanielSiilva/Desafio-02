@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
 
+export const Conteiner = styled.div `
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+`
+
 export const MasterBox = styled.div `
   display: flex;
   justify-content: center;
