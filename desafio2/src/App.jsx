@@ -1,6 +1,6 @@
 
 import React from "react"
-import { Main } from "./components/Main/Main"
+import { HomePage } from "./pages/HomePage/HomePage"
 
 import styled from "styled-components"
 
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <MasterBox>
-      <Main/>
+      <HomePage/>
     </MasterBox>
   )
 }
