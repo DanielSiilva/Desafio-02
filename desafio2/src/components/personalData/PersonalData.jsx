@@ -1,27 +1,45 @@
-import {MasterBox, Form} from './Styled'
-
+import {MasterBox, CaixaPessoa, CaixaPaises, CaixaPrincipal} from './Styled'
+import {useForm} from "../../hooks/useForm"
+import { useState } from 'react'
+import { DestinationInterest } from '../destinationInterest/DestinationInterest'
 
 
 export function PersonalData (){
-
+  
+    function Enviar (event){
+        event.preventDefault()
+    }
 
 
     return (
+        <CaixaPrincipal>
+            <MasterBox>
+                <CaixaPessoa>
+                    <h1>Dados pessois</h1>
+                    <form onSubmit={Enviar}>
+                        <lable>Nome</lable>
+                        <input/>
 
-        <MasterBox>
-            <h1> Dados Pessoais</h1>
-            <Form>
-                <label>Nome</label>
-                <input />
-                <label>E-mail</label>
-                <input />
-                <label>Telefone</label>
-                <input />
-                <label>CPF</label>
-                <input />
-                                    
-            </Form>
-        
+                        <lable>Email</lable>
+                        <input/>
+
+                        <lable>Telefone</lable>
+                        <input/>
+
+                        <lable>CPF</lable>
+                        <input/>
+
+                    </form>    
+                </CaixaPessoa>
+            <CaixaPaises>
+                <DestinationInterest 
+                    Enviar = {Enviar}
+                />
+            </CaixaPaises>
+            
         </MasterBox>
+            <button >Enviar</button>
+        </CaixaPrincipal>
+        
     )
 }

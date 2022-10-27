@@ -15,10 +15,9 @@ export const MasterBox = styled.div `
   align-items: center;
   gap: 5rem;
   
-  width: 90vw; // Teste
-  height: 80vh;
+  width: 100vw; 
+  height: 75vh;
 
-   // Apenas para marcação
 
 
 

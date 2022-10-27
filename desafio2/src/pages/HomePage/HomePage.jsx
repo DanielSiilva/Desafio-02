@@ -13,13 +13,7 @@ export function HomePage (){
         <Conteiner>
             <MasterBox>
                 <PersonalData/>
-                <DestinationInterest/>
-               
             </MasterBox>
-            
-            <ButtonSend>
-                <button> Enviar</button>
-            </ButtonSend> 
             
         </Conteiner>
     )
