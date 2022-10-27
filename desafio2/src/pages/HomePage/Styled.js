@@ -75,7 +75,7 @@ export const DestinationBox = styled.section `
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    gap:1rem;
 
     border: 1px solid black;
     width: 40vw;
@@ -92,9 +92,10 @@ export const DestinationBox = styled.section `
       font-size: 1.5rem;
       font-weight: bold;
     }
-    input{
-      height: 2rem;
+    
+    select{
+      width:30vw;
+      height:2rem;
     }
-
 
 `
