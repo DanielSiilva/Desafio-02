@@ -6,9 +6,7 @@ import { DestinationInterest } from '../destinationInterest/DestinationInterest'
 
 export function PersonalData (){
   
-    function Enviar (event){
-        event.preventDefault()
-    }
+   
 
 
     return (
@@ -16,29 +14,41 @@ export function PersonalData (){
             <MasterBox>
                 <CaixaPessoa>
                     <h1>Dados pessois</h1>
-                    <form onSubmit={Enviar}>
-                        <lable>Nome</lable>
-                        <input/>
+                    <form>
+                        <label>Nome</label>
+                        <input
+                            name="comment"
+                            placeholder="Deixe um comentário"
+                        // value={newCommentText}
+                        // onChange={handleNewCommentChange}
+                        // onInvalid={handleNewCommentInvalid}
+                        // required
+                        />
+                        <label>Nome</label>
+                        <input
+                            name="comment"
+                            placeholder="Deixe um comentário"
+                        // value={newCommentText}
+                        // onChange={handleNewCommentChange}
+                        // onInvalid={handleNewCommentInvalid}
+                        // required
+                        />
 
-                        <lable>Email</lable>
-                        <input/>
 
-                        <lable>Telefone</lable>
-                        <input/>
-
-                        <lable>CPF</lable>
-                        <input/>
-
-                    </form>    
+                        
+                        <footer>
+                            <button >
+                                Publicar
+                            </button>
+                        </footer>
+                    </form>  
                 </CaixaPessoa>
-            <CaixaPaises>
-                <DestinationInterest 
-                    Enviar = {Enviar}
-                />
-            </CaixaPaises>
+                <CaixaPaises>
+                    <DestinationInterest/>
+                </CaixaPaises>
             
-        </MasterBox>
-            <button >Enviar</button>
+            </MasterBox>
+            
         </CaixaPrincipal>
         
     )
