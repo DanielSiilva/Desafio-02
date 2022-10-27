@@ -32,6 +32,8 @@ export const MasterBox = styled.div `
     font-size: 1.6rem;
   }
 
+  
+
 `
 
 export const FormBox = styled.div `

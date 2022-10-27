@@ -11,7 +11,7 @@ export const Router = () => {
          <Routes>
             <Route index element={<HomePage/>} />
             <Route path="/obrigado" element={<Obrogado />} />
-            
+            <Route path="*" element={<p>Loading</p>} />
          </Routes>
       </BrowserRouter>
    );
