@@ -18,14 +18,7 @@ export function HomePage (){
     }) : <p>Carregando...</p>;
 
 
-    function handleInputInvalid(event){
-        event.target.setCustomValidity("Esse campo é obrigatório")
-    }
-
-    function handleNewTextInput(event) {
-        event.target.setCustomValidity('');
-        
-    }
+    
 
     function Enviar (){
         alert("Enviado")   
@@ -43,32 +36,33 @@ export function HomePage (){
                                 <label>Nome</label>
                                 <input
                                     placeholder="Digite seu nome"
-                                    onChange={handleNewTextInput}
-                                    onInvalid={handleInputInvalid}
+                                    type={'text'}
                                     required
-
+                                    pattern ={"^.{5,}$"}
+                                    title = {"O nome deve ter no mínimo 5 caracteres"}
                                 />
                                 <label>Email</label>
                                 <input
                                     placeholder="seu@gmail.com"
-                                    onChange={handleNewTextInput}
-                                    onInvalid={handleInputInvalid}
+                                    type={'text'}
+                                    pattern ={"^.{5,}$"}
+                                    title = {"@email deve ter no mínimo 5 caracteres"}
                                     required
                                 />
                                 
                                 <label>Telefone</label>
                                 <input
                                     placeholder="(99) 99999-99999"
-                                    onChange={handleNewTextInput}
-                                    onInvalid={handleInputInvalid}
+                                    type={"number"}
                                     required
+                                    min={11}
                                 />
                                 <label>CPF</label>
                                 <input
-                                    placeholder="999.999.999-99"
-                                    onChange={handleNewTextInput}
-                                    onInvalid={handleInputInvalid}
-                                    required
+                                     placeholder={"CPF"}
+                                     type={"number"}
+                                     required
+                                     min={11}
                                 />
                             </div>
                             
