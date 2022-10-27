@@ -1,11 +1,12 @@
 import React from "react"
 import {MasterBox, FormBox,PersonalBox, DestinationBox} from "./Styled"
 import {useRequestsData} from '../../services/resquests/useRequestData'
-
+import {goToObrigado} from "../../routes/coordinator"
+import { useNavigate } from "react-router-dom"
 
 
 export function HomePage (){
-
+    const navigate = useNavigate()
     const [citys] = useRequestsData("city", [])
     const [coutres] = useRequestsData("country", [])
 
@@ -20,15 +21,13 @@ export function HomePage (){
 
     
 
-    function Enviar (){
-        alert("Enviado")   
-    }
+    
 
 
     return(
         <>
             <MasterBox>
-                <form onSubmit={Enviar}>
+                <form onSubmit={()=>goToObrigado(navigate)}>
                     <FormBox>
                         <PersonalBox>
                             <h1>Dados pessoais</h1>
