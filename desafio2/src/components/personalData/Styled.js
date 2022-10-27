@@ -5,7 +5,7 @@ export const MasterBox = styled.div `
   align-items: center;
   flex-direction: column;
   
-  width: 30vw;
+  width: 40vw;
   height: 70vh;
   border: 1px solid black;
 
@@ -25,7 +25,7 @@ export const Form = styled.form `
 
 
   input {
-    width: 20vw;
+    width: 35vw;
     height: 3vh;
 
   }
