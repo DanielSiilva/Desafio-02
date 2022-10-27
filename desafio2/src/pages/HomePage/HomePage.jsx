@@ -3,12 +3,15 @@ import {MasterBox, FormBox,PersonalBox, DestinationBox} from "./Styled"
 import {useRequestsData} from '../../services/resquests/useRequestData'
 import {goToObrigado} from "../../routes/coordinator"
 import { useNavigate } from "react-router-dom"
+import { useState } from "react"
 
 
 export function HomePage (){
+    
     const navigate = useNavigate()
     const [citys] = useRequestsData("city", [])
     const [coutres] = useRequestsData("country", [])
+    
 
     const listOfCities = citys ? citys.map((city, index) =>{
         return (<option key={index}>{city.name}</option>)
@@ -18,16 +21,12 @@ export function HomePage (){
         return (<option key={index}>{coutre.name}</option>)
     }) : <p>Carregando...</p>;
 
-
     
-
-    
-
 
     return(
         <>
             <MasterBox>
-                <form onSubmit={()=>goToObrigado(navigate)}>
+                <form onSubmit={()=>goToObrigado(navigate, alert("Cadastro Realizado"))}>
                     <FormBox>
                         <PersonalBox>
                             <h1>Dados pessoais</h1>
@@ -62,6 +61,7 @@ export function HomePage (){
                                      type={"number"}
                                      required
                                      min={11}
+                                     
                                 />
                             </div>
                             
