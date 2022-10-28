@@ -6,22 +6,16 @@ export const MasterBox = styled.div `
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
-  gap: 5rem;
-  
-  width: 100vw; 
-  height: 100vh;
-
 
   form{
-    border: 1px solid black;
+    
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    gap: 5rem;
-    padding:2rem;
+    gap: 2rem;
+    padding:1rem;
     width: 90vw;
   }
 
@@ -30,6 +24,14 @@ export const MasterBox = styled.div `
     width: 10vw;
     height: 5vh;
     font-size: 1.6rem;
+    border-radius: 10px ;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #1740ab;
+    color: #ffffff;
+    font-weight:bold;
   }
 
   
@@ -39,7 +41,7 @@ export const MasterBox = styled.div `
 export const FormBox = styled.div `
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 
 
 `
@@ -51,6 +53,8 @@ export const PersonalBox = styled.section `
     gap:1rem;
 
     border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px 0px rgba(11,3,240,1);
     width: 40vw;
     height:70vh;
 
@@ -80,6 +84,8 @@ export const DestinationBox = styled.section `
     gap:1rem;
 
     border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px 0px rgba(11,3,240,1);
     width: 40vw;
     height:70vh;
 
