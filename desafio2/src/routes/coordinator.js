@@ -1,5 +1,5 @@
 export const goToObrigado = (navigate) => {
-   navigate("/obrigado");
+   navigate("/ThankYouPage");
 };
 
 export const goToBackPage = (navigate) => {
