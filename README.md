@@ -7,6 +7,14 @@ A aplicação simula as funcionalidades de um formulario de cadastro de viagens,
 
 https://desafio02-new.vercel.app/
 
+## 🖥️ Libs para instalar e visualizar o projeto 
+- Nmp install
+- Axios -> npm i axios
+- Styled Components -> npm i styled-components 
+- React Icons (Hide/show eyes) -> npm install react-icons --save
+- Para rodar o projeto, use [npm run dev],pois o projeto foir criado em @vite
+
+
 ## Funcionalidades
 O aplicação faz o consumo de uma Api com duas rotas,  uma lista todos os países, outra todas as ciades.
 
