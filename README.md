@@ -62,5 +62,5 @@ O aplicação faz o consumo de uma Api com duas rotas,  uma lista todos os país
      
   ## Referência
 
--   [Notion do Projeto](https://labenu.notion.site/Labex-Viajando-no-Espa-o-3cea405060754a7598e4ccf7ad00e095)
+-   [Case enviado pelo empresa)
 -   [Documentação React](https://pt-br.reactjs.org/)
