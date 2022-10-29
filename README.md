@@ -5,7 +5,7 @@ A aplicação simula as funcionalidades de um formulario de cadastro de viagens,
 
 ## Link do projeto
 
-https://aware-drain.surge.sh/
+https://desafio02-new.vercel.app/
 
 ## Funcionalidades
 O app faz o consumo de uma Api, que guarda dados de viagens e usuários fictícios  como: nome, data, profissão e etc.
