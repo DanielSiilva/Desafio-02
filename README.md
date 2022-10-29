@@ -70,5 +70,5 @@ O aplicação faz o consumo de uma Api com duas rotas,  uma lista todos os país
      
   ## Referência
 
--   [Case enviado pelo empresa)
+-   [Case enviado pela empresa)
 -   [Documentação React](https://pt-br.reactjs.org/)
