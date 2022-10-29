@@ -8,15 +8,16 @@ A aplicação simula as funcionalidades de um formulario de cadastro de viagens,
 https://desafio02-new.vercel.app/
 
 ## Funcionalidades
-O app faz o consumo de uma Api, que guarda dados de viagens e usuários fictícios  como: nome, data, profissão e etc.
-A proposta do projeto é simular as funcionalidades gerencias de um app para viagens, possuindo as seguintes telas: Pagina Inicial, Pagina de viagens, Pagina de inscrição para viagens disponíveis, Pagina de login , Pagina Painel administrativo, Pagina de cadastro de viagens, Pagina de detalhes de viagens. Que possui as seguintes funcionalidades:
+O aplicação faz o consumo de uma Api com duas rotas,  uma lista todos os países, outra todas as ciades.
 
-- ✅ Ver a lista de todas as viagens com a possibilidade de deletá-las
-- ✅ Ter acesso a uma página com formulário para criar novas viagens
-- ✅ Ver os detalhes de uma viagem e, dentro desta página:
-    - ✅ Conseguir ver a lista de candidatos que se aplicaram para essa viagem e ainda estão pendentes
-    - ✅ Aprovar ou reprovar os candidatos para a viagem
-    - ✅ Ver lista atualizada de candidatos aprovados
+- ✅ Validação dos campos de inputs;
+- ✅ Consumo da api, listando países e cidades em um select
+
+## Melhorias
+
+
+- ✅ Criação de um hook para automarizar o consumo da api, usando o metodo get;
+- ✅ Consumo da api, listando países e cidades em um select
 
 ## Imagens do projeto
 
@@ -26,20 +27,10 @@ A proposta do projeto é simular as funcionalidades gerencias de um app para via
 
 
 ### Pagina de obrigado
+![image](https://user-images.githubusercontent.com/94769388/198836894-92ad30d1-4c06-47e0-b4c9-65d35e1afe1c.png)
 
 
-## Aprendizados
 
--   Componentes Funcionais e Props;
--   Estados e Imutabilidade ;
--   styled-components;
--   Renderização de listas;
--   Consumo de Api;
--   HTTPS e Postman ;
--   Custom Hooks  ;
--   React Forms ;
--   Autenticação em aplicações React ;
--   Navegação com React Router ;
 
 ## Autores
 
