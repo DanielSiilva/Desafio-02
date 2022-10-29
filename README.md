@@ -21,26 +21,12 @@ A proposta do projeto é simular as funcionalidades gerencias de um app para via
 ## Imagens do projeto
 
 ### Pagina Inicial
-![image](https://user-images.githubusercontent.com/94769388/187045251-68378975-19e6-460c-b1a7-1306cb9337c7.png)
+![image](https://user-images.githubusercontent.com/94769388/198836790-c9096cf3-978b-4fde-9a42-c9a4251f624b.png)
 
 
-### Pagina de viagens disponíveis 
-![image](https://user-images.githubusercontent.com/94769388/187045338-c294940f-cefd-410c-a6f1-665cb5c5da8e.png)
 
-### Pagina de inscrição para viagens
-![image](https://user-images.githubusercontent.com/94769388/187045364-a1a7167c-514e-4d7b-b443-1bc08570cc6a.png)
+### Pagina de obrigado
 
-### Pagina de login
-![image](https://user-images.githubusercontent.com/94769388/187045400-7fc2f848-6284-45cf-9670-c0b4144115fb.png)
-
-### Pagina Painel administrativo
-![image](https://user-images.githubusercontent.com/94769388/187045501-252f0759-10c9-4616-aaa6-e82980a7aad1.png)
-
-### Pagina de cadastro de viagens
-![image](https://user-images.githubusercontent.com/94769388/187045510-ade8dee4-9030-4564-b465-a63b3b422d0b.png)
-
-### Pagina de detalhes de viagens
-![image](https://user-images.githubusercontent.com/94769388/187045610-18f3fffc-126b-4a17-932f-de14997d55e9.png)
 
 ## Aprendizados
 
