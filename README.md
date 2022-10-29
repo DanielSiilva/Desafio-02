@@ -1,15 +1,11 @@
-# Desafio-02
-# PROJETO LABEX
 
-App que simula as funcionalidades de um app para viagens, com cadastro de usuários para viagens e um painel administrativo, onde  é possível cadastrar novas viagens, fazer o controle de usuários inscritos em uma das viagens disponíveis, sendo possível aprovar ou reprovar cada candidato
+# Desafio-02
+
+A aplicação simula as funcionalidades de um formulario de cadastro de viagens, dando o poder de escolha ao usario decidir através do consumo de uma api, a ciade e estado.
 
 ## Link do projeto
 
 https://aware-drain.surge.sh/
-
- #### Login
-    Us: Nieldev@gmail.com.br
-    Senha: 123456 
 
 ## Funcionalidades
 O app faz o consumo de uma Api, que guarda dados de viagens e usuários fictícios  como: nome, data, profissão e etc.
