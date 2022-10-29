@@ -11,8 +11,8 @@ https://desafio02-new.vercel.app/
 - Nmp install
 - Axios -> npm i axios
 - Styled Components -> npm i styled-components 
-- React Icons (Hide/show eyes) -> npm install react-icons --save
-- Para rodar o projeto, use [npm run dev],pois o projeto foir criado em @vite
+- React Icons -> npm install react-icons --save
+- Para rodar o projeto, use -> [npm run dev],pois o projeto foi criado em @vite
 
 
 ## Funcionalidades
