@@ -50,14 +50,14 @@ export function HomePage (){
                                 
                                 <label>Telefone</label>
                                 <input
-                                    placeholder="(99) 99999-99999"
+                                    placeholder="ex: (99) 99999-99999"
                                     type={"number"}
                                     required
                                     min={11}
                                 />
                                 <label>CPF</label>
                                 <input
-                                     placeholder={"CPF"}
+                                     placeholder={"ex: 999.999.999-23"}
                                      type={"number"}
                                      required
                                      min={11}
