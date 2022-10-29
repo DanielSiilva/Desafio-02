@@ -17,7 +17,7 @@ O aplicação faz o consumo de uma Api com duas rotas,  uma lista todos os país
 
 
 - ✅ Criação de um hook para automarizar o consumo da api, usando o metodo get;
-- ✅ Consumo da api, listando países e cidades em um select
+- ✅ Uma pagina de obrigado ao fim do cadastro;
 
 ## Imagens do projeto
 
